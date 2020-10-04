@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="frame">
+            <form>
+                <br><br>
+                <div class="top">
+                    <h1>Calculator</h1>
+                    <input class="screen" id="result"></input>
+                </div><br>
+                <div class="middle">  
+                    <input class="first" type="number" placeholder="Input First Number" id="first">
+                    <select class="select" id="operators">
+                        <option value="plus">+</option>
+                        <option value="minus">-</option>
+                        <option value="multiplication">*</option>
+                        <option value="division">/</option>
+                    </select>
+                    <input class="second" type="number" placeholder="Input second Number" id="second">
+                    
+                </div>
+                <br>
+                <div class="bottom">
+                    <button class="calculate" type="button" onclick="calculate()">calculate</button>
+                    <button class="clear" type="reset" >Clear</button>
+                </div>
+                <br>
+                <p>Designed By Lutfur Rahman Tanvir</p>
+            </form>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
